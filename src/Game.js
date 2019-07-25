@@ -255,7 +255,7 @@ var SoundManager = laya.media.SoundManager;
         //把背景添加到舞台上显示。
         Laya.stage.addChild(this.bg);
         //显示FPS
-        Stat.show(0, 50);
+        // Stat.show(0, 50);
         //加载飞机图集资源
         Laya.loader.load("res/atlas/war.json", Handler.create(this, this.onLoaded), null, Loader.ATLAS);
     }
